@@ -7,6 +7,12 @@ import Titles from "./components/titles/Titles";
 
 const API_KEY = "a4451a98f72e5044e5d46ec974d2b9f4";
 
+{/* COMMENTS!
+  - Unique API Key from openweathermap.org
+  - set default state on data as undefined
+  - creates a json object from data, and writes to variables
+  - write to components, and let weather access state
+  */}
 class App extends React.Component {
   state = {
     temperature: undefined,
