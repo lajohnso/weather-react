@@ -44,6 +44,7 @@ body {
 .title-container__subtitle {
   font-style: italic;
   font-weight: 100;
+  margin-top: 37vh;
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
