@@ -9,12 +9,12 @@ const Weather = props => (
 	 }
 	 {
 	 	props.temperature && <p className="weather__key"> Temperature:
-	 		<span className="weather__value"> { props.temperature }	</span>
+	 		<span className="weather__value"> { props.temperature }°C	</span>
 	 	</p>
 	 }
 	 {
-	 	props.humidity && <p className="weather__key"> Humidity:
-	 		<span className="weather__value"> { props.humidity } </span>
+	 	props.wind && <p className="weather__key"> Wind:
+	 		<span className="weather__value"> { props.wind } m/s</span>
 	 	</p>
 	 }
 	 {
@@ -25,6 +25,9 @@ const Weather = props => (
 	 {
 	 	props.error && <p className="weather__error">{ props.error }</p>
 	 }
+	 {
+	 	props.wind &&<button onClick={props.reset}>Reset</button>
+}
 	</div>
 );
 
