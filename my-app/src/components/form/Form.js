@@ -1,5 +1,5 @@
 import React from "react";
-
+{/*Stateless Component that takes activates getWeather function*/}
 const Form = props => (
 	<form onSubmit={props.getWeather}>
 		<input type="text" name="city" placeholder="City..."/>
